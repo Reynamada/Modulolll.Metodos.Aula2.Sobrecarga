@@ -28,10 +28,20 @@ public class Main {
         System.out.println("Altura: ");
         altura=scan.nextInt();
 
+/* SIN RETORNO (return)
         Quadrilateros.area(lado);
         Quadrilateros.area(lado1,lado2);
         Quadrilateros.area(ladomaior,ladomenor,altura);
 
+*******************************************************************/
+
+        // AULA 3.RETURN
+    double areaQuadrado= Quadrilateros.area(lado);
+        System.out.println("Area do quadrado: "+ areaQuadrado);
+    double areaRetangulo=Quadrilateros.area(lado1,lado2);
+        System.out.println("Area do retangulo: "+ areaRetangulo);
+    double areaTrapecio= Quadrilateros.area(ladomaior,ladomenor,altura);
+        System.out.println("Area do Trapecio: "+ areaTrapecio);
 
 
 
